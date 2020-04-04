@@ -2,9 +2,9 @@
 通过spring boot + dubbo构建最基础的dubbo程序,了解dubbo的运行机制以及dubbo项目结构
 
 ## 准备
-1.开发环境:jdk8,idea,springBoot  
-2.项目结构:服务提供者 + 服务消费者 + API层  
-3.项目工厂:dubbo-interface , dubbo-provider,dubbo-web  
+1.开发环境: jdk8,idea,springBoot  
+2.项目结构: 服务提供者 + 服务消费者 + API层  
+3.项目工厂: dubbo-interface , dubbo-provider,dubbo-web  
 
 
 工程结构及说明:
