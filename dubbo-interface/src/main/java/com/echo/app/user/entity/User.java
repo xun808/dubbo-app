@@ -61,13 +61,14 @@ public class User implements Serializable{
     public void setCreated(Date created) {
         this.created = created;
     }
+
     @Override
     public String toString() {
         return "User{" +
                 "id='" + id + '\'' +
                 ", userId='" + userId + '\'' +
                 ", userName='" + userName + '\'' +
-                ", created='" + created + '\'' +
+                ", created=" + created +
                 '}';
     }
 }

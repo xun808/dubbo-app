@@ -26,6 +26,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void updateUser(User user) {
+        System.out.println("userServiceImpl - service层!");
 
+        System.out.println(user);
+        userMapper.save(user);
     }
 }
